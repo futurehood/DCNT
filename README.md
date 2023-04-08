@@ -1,6 +1,3 @@
-# DCNT
-Decentralized peer-to-peer RTC signaling protocol
-
 # Welcome - DCNT Protocol #
 
 <br>
