@@ -3,16 +3,7 @@ Decentralized peer-to-peer RTC signaling protocol
 
 # Welcome - DCNT Protocol #
 
-<html>
-<head>
-<style>
-    section { overflow: auto; box-sizing: border-box; padding: 3em; background: #333; }
-    section>svg:nth-of-type(1) {display: block;float: left; width: 30%;}
-    section>svg:nth-of-type(2) {display: block;float: left; width: 70%;}
-    section>span{ display: block; font-size: 2em; margin-bottom: 1em; }
-</style>
-</head>
-<body>
+
 <section>
 <svg width="100%" height="100%" viewBox="0 0 700 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
     <style>
@@ -171,8 +162,6 @@ Decentralized peer-to-peer RTC signaling protocol
 <svg width="100%" height="100%" viewBox="0 0 3908 1522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"><rect id="Artboard1" x="0" y="0" width="3907.94" height="1521.09" style="fill:none;"/><path d="M245.363,1367.57l3516.44,-0" style="fill:none;stroke:#fff;stroke-width:15.73px;"/><g><path d="M337.177,1223.35l0,-1093.68l256.192,0c69.916,0 130.093,13.733 180.533,41.2c50.439,27.467 89.891,65.671 118.357,114.612c28.466,48.941 42.699,106.872 42.699,173.791l-0,434.477c-0,65.921 -14.233,123.601 -42.699,173.042c-28.466,49.44 -67.918,87.894 -118.357,115.361c-50.44,27.467 -110.617,41.2 -180.533,41.2l-256.192,0Zm98.881,-89.892l157.311,0c73.911,0 132.84,-21.474 176.787,-64.422c43.947,-42.948 65.921,-101.378 65.921,-175.289l-0,-434.477c-0,-72.912 -21.974,-131.092 -65.921,-174.54c-43.947,-43.447 -102.876,-65.171 -176.787,-65.171l-157.311,-0l0,913.899Z" style="fill:#fff;fill-rule:nonzero;"/><path d="M1538.73,1238.33c-62.924,0 -117.609,-12.485 -164.053,-37.455c-46.444,-24.97 -82.4,-60.427 -107.87,-106.372c-25.469,-45.944 -38.204,-99.879 -38.204,-161.805l0,-512.383c0,-62.924 12.735,-117.359 38.204,-163.303c25.47,-45.945 61.426,-81.153 107.87,-105.623c46.444,-24.471 101.129,-36.706 164.053,-36.706c63.923,0 119.106,12.984 165.55,38.953c46.445,25.969 82.401,62.425 107.871,109.368c25.469,46.944 38.204,102.377 38.204,166.3l-98.881,0c-0,-70.914 -18.977,-126.348 -56.932,-166.3c-37.954,-39.951 -89.892,-59.927 -155.812,-59.927c-64.922,-0 -116.36,19.226 -154.314,57.68c-37.955,38.454 -56.932,91.64 -56.932,159.558l0,512.383c0,67.918 18.977,121.104 56.932,159.558c37.954,38.454 89.392,57.681 154.314,57.681c66.919,-0 119.106,-20.226 156.561,-60.677c37.455,-40.452 56.183,-95.635 56.183,-165.551l98.881,-0c-0,63.923 -12.735,119.356 -38.204,166.3c-25.47,46.943 -61.426,83.399 -107.871,109.368c-46.444,25.969 -101.627,38.953 -165.55,38.953Z" style="fill:#fff;fill-rule:nonzero;"/><path d="M2133.51,1223.35l-0,-1093.68l133.339,0l374.549,981.318c-1.997,-21.973 -3.745,-47.442 -5.244,-76.408c-1.498,-28.965 -2.746,-57.43 -3.745,-85.397c-0.999,-27.966 -1.498,-51.438 -1.498,-70.415l-0,-749.098l95.884,0l0,1093.68l-133.339,0l-371.553,-981.318c0.999,14.982 1.998,34.958 2.997,59.928c0.998,24.969 1.997,52.436 2.996,82.4c0.999,29.964 1.498,59.928 1.498,89.892l0,749.098l-95.884,0Z" style="fill:#fff;fill-rule:nonzero;"/><path d="M3281.13,1223.35l-0,-1003.79l-314.621,-0l-0,-89.892l725.127,0l-0,89.892l-311.625,-0l-0,1003.79l-98.881,0Z" style="fill:#fff;fill-rule:nonzero;"/></g></svg>
 <span>Decentralized peer-to-peer RTC signaling protocol</span>
 </section>
-</body>
-</html>
 
 <br>
 
