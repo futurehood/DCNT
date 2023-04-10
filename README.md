@@ -58,11 +58,7 @@ let signalingFrame = {
 
 Subprotocol implementation is entirely at the discretion of the client application, though at least one subprotocol must be associated with a remote connection, or the connection will be closed. Subprotocols are used by ```DCNT``` servers internally to route signaling requests between PWAs. Subprotocols also offer interoperability between different applications which share overlapping subprotocols. For example, two different messaging applications which properly implement the same application-level subprotocol(s) will be interoperable out-of-the-box. 
 
-<br>
-
 ## 3. Share SDPs and ICE candidates ##
-
-<br>
 
 In order to connect via RTC and complete the DCNT protocol procedure, the client browsers which are attempting to connect must negotiate their connection using session descriptions and ICE candidates. The final step of the protocol is the sharing of SDP and ICE candidate objects via the signaling server to complete the RTC connection process. DCNT implementing servers will expect these data in JSON format using the keys ```sdp``` and ```ice```:
 
@@ -81,5 +77,3 @@ let signalingFrame = {
     ice: {...}
 }
 ```
-
-<br>
