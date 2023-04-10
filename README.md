@@ -1,7 +1,5 @@
 # Welcome - DCNT Protocol #
 
-<br>
-
 DCNT is a protocol intended to facilitate the development and distribution of decentralized web applications by providing a standardized framework for self-hosted RTC signaling solutions.
 
 ## Introduction ##
@@ -18,20 +16,10 @@ The signaling process that defines the ```DCNT``` protocol is simple. There are 
 ## Goals ##
 The intent of this protocol is to provide a foundation for the development and use of completely decentralized applications.
 
-<br>
-
-
-
-
-
 # Protocol Breakdown #
 To provide some clarity, each step will be briefly examined here. Complete application code samples and tutorials are available here.
 
-<br>
-
 ## 1. Connecting ##
-
-<br>
 
 Connecting will generally occur using Javascript from a browser context, for example:
 
@@ -45,16 +33,14 @@ wss.addEventListener("close",  wssEvents.close)
 ```
 
 There is one *very important* caveat. Notice that the WebSocket constructor is being invoked with a second, optional argument - the protocols parameter:
+
 ```js
 "DCNT"
 ```
+
 Any service implementing the DCNT protocol will require that clients interacting with the service open any connections using the ```DCNT``` protocol identifier.
 
-<br>
-
 ## 2. Registering protocols ##
-
-<br>
 
 Once a client has successfully connected to the signaling server using the connection-level ```DCNT``` protocol, the client application must register it's own application-level subprotocols, or face imminent disconnection. Subprotocols are strings, if an application employs multiple subprotocols, they must be passed to the Javascript WebSocket constructor as an array of strings:
 
