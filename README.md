@@ -72,7 +72,7 @@ let signalingFrame = {
 or
 ```js
 let signalingFrame = {
-    local_id: "5c21889b-196a-4eb4-9650-7101a120a688"
+    local_id: "5c21889b-196a-4eb4-9650-7101a120a688",
     remote_id: "4815f755-ea11-4332-b583-5b2ef7706161",
     ice: {...}
 }
