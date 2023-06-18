@@ -4,7 +4,7 @@ DCNT is a protocol intended to facilitate the development and distribution of de
 
 ## Introduction ##
 
-The ```DCNT``` protocol provides a standardized means for signaling RTC connections between decentralized progressive web apps (PWAs). The communication is accomplished using JSON and a secure WebSocket connection. At present, operations rely on the basis of performing signaling for a connection between a first client that is local to the signaling server and a second client that is remote to the signaling server only.
+The ```DCNT``` protocol provides a standardized means for signaling RTC connections between decentralized web apps (DWAs). The communication is accomplished using JSON and a secure WebSocket connection. At present, operations rely on the basis of performing signaling for a connection between a first client that is local to the signaling server and a second client that is remote to the signaling server only.
 
 ## Overview ##
 The signaling process that defines the ```DCNT``` protocol is simple. There are three steps involved with successfully signaling an RTC connection using ```DCNT```:
